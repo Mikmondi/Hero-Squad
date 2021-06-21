@@ -1,0 +1,33 @@
+{{#partial "content"}}
+
+    <div class="card container" style="width : 40vw;">
+        <img class="card-img-top" src="/images/squad.jpg" alt="Squad avatar" style="width: 100%; height: auto; padding-top: 10px; justify-content : center;">
+        <h3 style="text-align : center;"><strong>{{ squad.name }}</strong></h3>
+    {{#if heroes}}
+            <p><strong>Listed Heroes:</strong></p>
+            <ul>
+                {{#each heroes}}
+                    <p><strong>{{id}}. </strong><a href="/squads/{{squad.id}}/heroes/{{id}}" style="text-decoration : none;">{{name}}</a></p>
+                {{/each}}
+            </ul>
+            <hr>
+            <p><strong>Need more? </strong><a href="/heroes/new" style="text-decoration : none;">Add heroes</a></p>
+            <div class="card-body">
+            <span style="background-color : #00BB49;" class="label label-default">
+                <a href="/squads/{{squad.id}}/update" style="color : white; text-decoration : none;">Edit</a>
+            </span>
+                <span style="background-color : #CA0B00;" class="label label-default">
+                <a href="/squads/{{squad.id}}/delete" style="color : white; text-decoration : none;">Delete</a>
+            </span>
+            </div>
+        </div>
+
+    {{else}}
+        <hr>
+        <p><strong>New squad? </strong><a href="/heroes/new" style="text-decoration : none;">Add a hero</a></p>
+
+    {{/if}}
+
+{{/partial}}
+
+{{> layout.hbs}}

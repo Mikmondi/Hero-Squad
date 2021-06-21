@@ -1,0 +1,29 @@
+{{#partial "content"}}
+    {{#if updateSquad}}
+        <div class="center">
+            <h4 style="font-weight : bold">Edit Squad</h4>
+            <form action="/squads/{{squad.id}}" method="post">
+                <div class="txt_field">
+                    <label for="name">Name</label>
+                    <input id="newSquadName" name="newSquadName" type="text" value="{{squad.name}}">
+                </div>
+                <button type="submit" class="btn btn-default">Edit</button>
+                <span></span>
+            </form>
+        </div>
+    {{else}}
+        <div class="center">
+            <h4 style="font-weight : bold;">Add Squad</h4>
+            <form action="/squads" method="post">
+                <div class="txt_field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter squad name">
+                </div>
+                <button type="submit" class="btn btn-default">Create</button>
+                <span></span>
+            </form>
+        </div>
+    {{/if}}
+{{/partial}}
+
+{{> layout.hbs}}

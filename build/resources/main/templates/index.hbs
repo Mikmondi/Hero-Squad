@@ -1,0 +1,91 @@
+{{#partial "content"}}
+
+    <div class="container" style="width : 80vw; padding-top : 2%; text-align : center;">
+        <h3 style="text-align : center; padding-bottom: 1%;"><strong>Welcome to Hero Squad!</strong></h3>
+        <img src="/images/league.png" alt="Justice League Banner" style="width: 100%; height: auto; padding-top: 10px;">
+
+        {{#if squads}}
+            <h3 style="text-align : center; padding: 1% 0 3% 0;"><strong>Squads</strong></h3>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col" style="text-align : center;">Squad Id</th>
+                    <th scope="col" style="text-align : center;">Squad Name</th>
+                </tr>
+                </thead>
+                {{#each squads }}
+                    <tbody>
+                    <tr>
+                        <th scope="row" style="text-align : center;">{{ id }}</th>
+                        <td><a href="/squads/{{ id }}" style="text-decoration : none;">{{ name }}</a></td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+
+            <hr>
+            <div class="card-body">
+            <span style="background-color : #CA0B00;" class="label label-default">
+                <a href="/squads/delete" style="color : white; text-decoration : none;">Delete all Squads</a>
+            </span>
+            </div>
+
+        {{else}}
+
+            <div class="new" style="width : 40vw; padding : 3% 5%;">
+                <div>
+                    <a href="/squads/new" style="text-decoration : none;"><strong>Create a squad</strong></a>
+                </div>
+            </div>
+        {{/if}}
+
+        {{#if heroes}}
+            <h3 style="text-align : center; padding: 1% 0 3% 0;"><strong>Heroes</strong></h3>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col" style="text-align : center;">Hero Id</th>
+                    <th scope="col" style="text-align : center;">Hero Name</th>
+                    <th scope="col" style="text-align : center;">Hero Age</th>
+                    <th scope="col" style="text-align : center;">Hero Power</th>
+                    <th scope="col" style="text-align : center;">Hero Weakness</th>
+                </tr>
+                </thead>
+                {{#each heroes }}
+                    <tbody>
+                    <tr>
+                        <th scope="row" style="text-align : center;">{{ id }}</th>
+                        <td>{{ name }}</td>
+                        <td>{{ age }}</td>
+                        <td>{{ power }}</td>
+                        <td>{{ weakness }}</td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+
+            <hr>
+            <div class="card-body">
+            <span style="background-color : #CA0B00;" class="label label-default">
+            <a href="/heroes/delete" style="color : white; text-decoration : none;">Delete all Heroes</a>
+        </span>
+            </div>
+
+        {{else}}
+
+            <div class="new" style="width : 40vw; padding : 3% 5%;">
+                <div>
+                    <a href="/heroes/new" style="text-decoration : none;"><strong>Create a hero</strong></a>
+                </div>
+            </div>
+        {{/if}}
+
+        <div style="margin-top: 5%;">
+            <footer style="text-align: center; padding: 3% 0;">
+                <p>2021 Copyright &copy; <a style="text-decoration: none;" href="https://github.com/Mikmondi" target="_blank">Michael Oduor</a></p>
+            </footer>
+        </div>
+
+    </div>
+{{/partial}}
+{{>layout.hbs}}
