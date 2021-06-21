@@ -9,6 +9,9 @@ version '1.0-SNAPSHOT'
 
 mainClassName = 'App'
 
+task stage(dependsOn: ['build', 'clean', 'installDist'])
+build.mustRunAfter clean
+
 sourceCompatibility = 1.8
 
 repositories {
