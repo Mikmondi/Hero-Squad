@@ -1,0 +1,22 @@
+{{#partial "content"}}
+
+    <div class="card container" style="width : 20vw;">
+        <img class="card-img-top" src="/images/avatar.png" alt="hero avatar" style="width: 95%; height: auto; padding-top: 10px; justify-content : center;">
+        <h4 style="text-align : center;"><strong>{{ hero.name }}</strong></h4>
+        <p><strong>Squad:</strong> <a href="/squads/{{squad.id}}" style="text-decoration : none;">{{ squad.name }}</a></p>
+        <p><strong>Age:</strong> {{ hero.age }}</p>
+        <p><strong>Power:</strong> {{ hero.power }}</p>
+        <p><strong>Weakness:</strong> {{ hero.weakness }}</p>
+        <div class="card-body">
+            <span style="background-color : #00BB49;" class="label label-default">
+                <a href="/heroes/{{ hero.id }}/update" style="color : white;  text-decoration : none;">Edit</a>
+            </span>
+            <span style="background-color : #CA0B00;" class="label label-default">
+                <a href="/heroes/{{hero.id}}/delete" style="color : white;  text-decoration : none;">Delete</a>
+            </span>
+        </div>
+    </div>
+
+{{/partial}}
+
+{{> layout.hbs}}
