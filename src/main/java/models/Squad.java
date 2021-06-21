@@ -31,12 +31,12 @@ public class Squad {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Squad squad = (Squad) o;
-        return getId() == squad.getId() &&
-                Objects.equals(getName(), squad.getName());
+        return id == squad.id &&
+                name.equals(squad.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getId());
+        return Objects.hash(name, id);
     }
 }

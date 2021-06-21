@@ -11,8 +11,8 @@ public class Sql2oHeroDaoTest {
 
     @BeforeClass
     public static void setUp() throws Exception {
-        String connectionString = "jdbc:postgresql://localhost:4567/hero_squad_test";
-        Sql2o sql2o = new Sql2o(connectionString, "moringa", "newpsqlpass");
+        String connectionString = "jdbc:postgresql://localhost:5432/hero_squad_test";
+        Sql2o sql2o = new Sql2o(connectionString, "moringa", "gre8tness");
         heroDao = new Sql2oHeroDao(sql2o);
         conn = sql2o.open();
     }

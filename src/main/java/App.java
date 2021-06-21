@@ -25,10 +25,10 @@ public class App {
 
         staticFileLocation("/public");
 
-//        String connectionString = "jdbc:postgresql://localhost:4567/hero_squad";
-//        Sql2o sql2o = new Sql2o(connectionString, "moringa", "newpsqlpass");
-        String connectionString = "jdbc:postgresql://ec2-34-231-56-78.compute-1.amazonaws.com:5432/deq00sm90atkqn";
-        Sql2o sql2o = new Sql2o(connectionString, "", "");
+        String connectionString = "jdbc:postgresql://localhost:5432/hero_squad";;
+       Sql2o sql2o = new Sql2o(connectionString, "moringa", "gre8tness");
+       // String connectionString = "jdbc:postgresql://ec2-34-231-56-78.compute-1.amazonaws.com:5432/deq00sm90atkqn";
+        //Sql2o sql2o = new Sql2o(connectionString, "", "");
         Sql2oHeroDao heroDao = new Sql2oHeroDao(sql2o);
         Sql2oSquadDao squadDao = new Sql2oSquadDao(sql2o);
 

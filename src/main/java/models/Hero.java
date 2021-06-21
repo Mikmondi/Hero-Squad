@@ -18,23 +18,6 @@ public class Hero {
         this.squadId = squadId;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Hero hero = (Hero) o;
-        return getId() == hero.getId() &&
-                getAge() == hero.getAge() &&
-                getSquadId() == hero.getSquadId() &&
-                Objects.equals(getName(), hero.getName()) &&
-                Objects.equals(getPower(), hero.getPower()) &&
-                Objects.equals(getWeakness(), hero.getWeakness());
-    }
-    @Override
-    public int hashCode() {
-        return Objects.hash(getName(), getId(), getAge(), getPower(), getWeakness(), getSquadId());
-    }
-
     public String getName() {
         return name;
     }
@@ -81,6 +64,24 @@ public class Hero {
 
     public void setSquadId(int squadId) {
         this.squadId = squadId;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Hero hero = (Hero) o;
+        return id == hero.id &&
+                age == hero.age &&
+                squadId == hero.squadId &&
+                name.equals(hero.name) &&
+                power.equals(hero.power) &&
+                weakness.equals(hero.weakness);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, id, age, power, weakness, squadId);
     }
 }
 

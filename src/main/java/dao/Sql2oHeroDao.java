@@ -4,7 +4,7 @@ import models.Hero;
 import org.sql2o.*;
 import java.util.List;
 
-public class Sql2oHeroDao implements HeroDao { //implementing our interface
+public class Sql2oHeroDao implements HeroDao {
 
     private final Sql2o sql2o;
 

@@ -18,3 +18,4 @@ public interface SquadDao {
 
     void clearAllSquads();
 }
+
