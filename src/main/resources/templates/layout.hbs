@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#block "title"}}Hero Squad{{/block}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active" id="home"><a href="/">Hero Squad</a></li>
+    <li role="presentation"><a href="/heroes/new" style="color : #000;">Add Hero</a></li>
+    <li role="presentation"><a href="/squads/new" style="color : #000;">Add Squad</a></li>
+</ul>
+<div class="container">
+    {{#block "content"}}
+    {{/block}}
+    {{#block "footer"}}
+    {{/block}}
+</div>
+</body>
+</html>
