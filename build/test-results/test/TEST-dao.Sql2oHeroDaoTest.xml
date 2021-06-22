@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dao.Sql2oHeroDaoTest" tests="8" skipped="0" failures="8" errors="0" timestamp="2021-06-21T20:40:58" hostname="moringa-ThinkPad-T450s" time="0.845">
+<testsuite name="dao.Sql2oHeroDaoTest" tests="8" skipped="0" failures="8" errors="0" timestamp="2021-06-21T23:32:21" hostname="moringa-ThinkPad-T450s" time="0.901">
   <properties/>
-  <testcase name="squadIdIsReturnedCorrectly" classname="dao.Sql2oHeroDaoTest" time="0.174">
+  <testcase name="squadIdIsReturnedCorrectly" classname="dao.Sql2oHeroDaoTest" time="0.151">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -74,7 +74,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="noHeroesReturnsEmptyList" classname="dao.Sql2oHeroDaoTest" time="0.042">
+  <testcase name="noHeroesReturnsEmptyList" classname="dao.Sql2oHeroDaoTest" time="0.057">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -147,7 +147,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="existingHeroesCanBeFoundById" classname="dao.Sql2oHeroDaoTest" time="0.048">
+  <testcase name="existingHeroesCanBeFoundById" classname="dao.Sql2oHeroDaoTest" time="0.098">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -220,7 +220,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="addedHeroesAreReturnedFromGetAll" classname="dao.Sql2oHeroDaoTest" time="0.047">
+  <testcase name="addedHeroesAreReturnedFromGetAll" classname="dao.Sql2oHeroDaoTest" time="0.066">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -293,7 +293,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="addingHeroSetsId" classname="dao.Sql2oHeroDaoTest" time="0.028">
+  <testcase name="addingHeroSetsId" classname="dao.Sql2oHeroDaoTest" time="0.093">
     <failure message="java.lang.AssertionError: Values should be different. Actual: 0" type="java.lang.AssertionError">java.lang.AssertionError: Values should be different. Actual: 0
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failEquals(Assert.java:185)
@@ -352,7 +352,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="updateChangesHeroName" classname="dao.Sql2oHeroDaoTest" time="0.18">
+  <testcase name="updateChangesHeroName" classname="dao.Sql2oHeroDaoTest" time="0.095">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -425,7 +425,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="deleteByIdDeletesCorrectHero" classname="dao.Sql2oHeroDaoTest" time="0.16">
+  <testcase name="deleteByIdDeletesCorrectHero" classname="dao.Sql2oHeroDaoTest" time="0.173">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
@@ -498,7 +498,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation &quot;heroes&quot;
 	... 56 more
 </failure>
   </testcase>
-  <testcase name="clearAllHeroes" classname="dao.Sql2oHeroDaoTest" time="0.164">
+  <testcase name="clearAllHeroes" classname="dao.Sql2oHeroDaoTest" time="0.16">
     <failure message="org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist&#10;  Position: 15" type="org.sql2o.Sql2oException">org.sql2o.Sql2oException: Database error: ERROR: relation &quot;heroes&quot; does not exist
   Position: 15
 	at org.sql2o.Query$ResultSetIterableBase.&lt;init&gt;(Query.java:332)
