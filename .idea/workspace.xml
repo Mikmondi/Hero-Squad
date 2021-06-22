@@ -2,32 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402eb34b-2f28-45da-8371-c2b4b2e98b9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/Sql2oHeroDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/Sql2oHeroDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/Sql2oSquadDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/Sql2oSquadDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Squad.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Squad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/dao/Sql2oHeroDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/dao/Sql2oHeroDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/dao.Sql2oHeroDaoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/dao.Sql2oHeroDaoTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/db/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-dao.Sql2oHeroDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-dao.Sql2oHeroDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oHeroDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oHeroDaoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'dao'">
+  <component name="RunManager" selected="Gradle.Sql2oHeroDaoTest.deleteById">
     <configuration name="Sql2oHeroDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,12 +158,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oHeroDaoTest.clearAllHeroes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql2oHeroDaoTest.deleteById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest.clearAllHeroes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest.deleteById&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -209,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Sql2oHeroDaoTest.deleteById" />
         <item itemvalue="Gradle.Tests in 'dao'" />
         <item itemvalue="Gradle.Sql2oHeroDaoTest" />
         <item itemvalue="Gradle.Sql2oHeroDaoTest.addingHeroSetsId" />
         <item itemvalue="Gradle.Sql2oHeroDaoTest.addedHeroesAreReturnedFromGetAll" />
-        <item itemvalue="Gradle.Sql2oHeroDaoTest.clearAllHeroes" />
       </list>
     </recent_temporary>
   </component>

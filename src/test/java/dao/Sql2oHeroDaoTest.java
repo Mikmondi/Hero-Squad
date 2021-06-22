@@ -100,4 +100,23 @@ public class Sql2oHeroDaoTest {
         return new Hero("Superman", 50 , "Flying" , "kryptonite",1);
     }
 
+    @Test
+    public void add() {
+    }
+
+    @Test
+    public void getAll() {
+    }
+
+    @Test
+    public void findById() {
+    }
+
+    @Test
+    public void update() {
+    }
+
+    @Test
+    public void deleteById() {
+    }
 }
