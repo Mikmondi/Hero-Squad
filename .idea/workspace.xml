@@ -6,19 +6,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/dao/Sql2oHeroDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/dao/Sql2oHeroDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/dao.Sql2oHeroDaoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/dao.Sql2oHeroDaoTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/dao.Sql2oHeroDaoTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/dao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-dao.Sql2oHeroDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-dao.Sql2oHeroDaoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-dao.Sql2oHeroDaoTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oHeroDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oHeroDaoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Sql2oHeroDaoTest.deleteById">
-    <configuration name="Sql2oHeroDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Sql2oSquadDaoTest.getAllHeroesBySquadReturnsHeroesCorrectly">
+    <configuration name="Sql2oSquadDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oSquadDaoTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +114,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oHeroDaoTest.addedHeroesAreReturnedFromGetAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql2oSquadDaoTest.addedSquadsAreReturnedFromGetAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest.addedHeroesAreReturnedFromGetAll&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oSquadDaoTest.addedSquadsAreReturnedFromGetAll&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +134,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oHeroDaoTest.addingHeroSetsId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql2oSquadDaoTest.existingSquadCanBeFoundById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest.addingHeroSetsId&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oSquadDaoTest.existingSquadCanBeFoundById&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,12 +154,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oHeroDaoTest.deleteById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql2oSquadDaoTest.getAllHeroesBySquadReturnsHeroesCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oHeroDaoTest.deleteById&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oSquadDaoTest.getAllHeroesBySquadReturnsHeroesCorrectly&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,12 +174,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'dao'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql2oSquadDaoTest.updateChangesSquadName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oSquadDaoTest.updateChangesSquadName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -200,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Sql2oHeroDaoTest.deleteById" />
-        <item itemvalue="Gradle.Tests in 'dao'" />
-        <item itemvalue="Gradle.Sql2oHeroDaoTest" />
-        <item itemvalue="Gradle.Sql2oHeroDaoTest.addingHeroSetsId" />
-        <item itemvalue="Gradle.Sql2oHeroDaoTest.addedHeroesAreReturnedFromGetAll" />
+        <item itemvalue="Gradle.Sql2oSquadDaoTest.getAllHeroesBySquadReturnsHeroesCorrectly" />
+        <item itemvalue="Gradle.Sql2oSquadDaoTest" />
+        <item itemvalue="Gradle.Sql2oSquadDaoTest.updateChangesSquadName" />
+        <item itemvalue="Gradle.Sql2oSquadDaoTest.existingSquadCanBeFoundById" />
+        <item itemvalue="Gradle.Sql2oSquadDaoTest.addedSquadsAreReturnedFromGetAll" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +232,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hero_Squad$Tests_in__models_.ic" NAME="Tests in 'models' Coverage Results" MODIFIED="1624254553231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Hero_Squad$Tests_in__dao_.ic" NAME="Tests in 'dao' Coverage Results" MODIFIED="1624318338249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Hero_Squad$Tests_in__dao_.ic" NAME="Tests in 'dao' Coverage Results" MODIFIED="1624367758286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Hero_Squad$Sql2oSquadDaoTest.ic" NAME="Sql2oSquadDaoTest Coverage Results" MODIFIED="1624368029825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Hero_Squad$Sql2oHeroDaoTest.ic" NAME="Sql2oHeroDaoTest Coverage Results" MODIFIED="1624308056428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
