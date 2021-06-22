@@ -132,7 +132,7 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             int idOfHeroToDelete = Integer.parseInt(req.params("hero_id"));
             heroDao.deleteById(idOfHeroToDelete);
-            return new ModelAndView(model, "success.hbs");
+            return new ModelAndView(model, "templates/success.hbs");
         }, new HandlebarsTemplateEngine());
 
         //get: show new hero form
@@ -140,7 +140,7 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             List<Squad> squads = squadDao.getAll();
             model.put("squads", squads);
-            return new ModelAndView(model, "hero-form.hbs");
+            return new ModelAndView(model, "templates/hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
         //post: process a new hero form.
@@ -155,7 +155,7 @@ public class App {
             int squadId = Integer.parseInt(request.queryParams("squadId"));
             Hero newHero = new Hero(name,age, power, weakness, squadId);
             heroDao.add(newHero);
-            return new ModelAndView(model, "success.hbs");
+            return new ModelAndView(model, "templates/success.hbs");
         }, new HandlebarsTemplateEngine());
 
         //get: show an individual hero that is nested within a squad.
@@ -168,7 +168,7 @@ public class App {
             model.put("squad",squadDao.findById(idOfSquadToFind));
             model.put("squads", squadDao.getAll());
             model.put("heroes", heroDao.getAll());
-            return new ModelAndView(model, "hero-detail.hbs");
+            return new ModelAndView(model, "templates/hero-detail.hbs");
         }, new HandlebarsTemplateEngine());
 
         //get: show a form to update a hero
@@ -179,7 +179,7 @@ public class App {
             Hero hero = heroDao.findById(Integer.parseInt(req.params("id")));
             model.put("hero", hero);
             model.put("editHero", true);
-            return new ModelAndView(model, "hero-form.hbs");
+            return new ModelAndView(model, "templates/hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
         //post: process a form to update a hero.
@@ -192,7 +192,7 @@ public class App {
             String newWeakness = req.queryParams("weakness");
             int newSquadId = Integer.parseInt(req.queryParams("squadId"));
             heroDao.update(idOfHeroToUpdate, newName, newAge, newPower, newWeakness, newSquadId);
-            return new ModelAndView(model, "success.hbs");
+            return new ModelAndView(model, "templates/success.hbs");
         }, new HandlebarsTemplateEngine());
 
     }
