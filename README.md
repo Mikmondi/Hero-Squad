@@ -5,10 +5,6 @@ This is the Hero Squad web application that allows users to create superheros an
  #Author
 Michael Oduor
 
-## Live Link
-http://dannyherosquad.herokuapp.com/
-
-
 ## Technologies Used
 - Java JDK 8
 - Gradle
