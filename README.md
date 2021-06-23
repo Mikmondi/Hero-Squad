@@ -1,17 +1,19 @@
 # Hero Squad
 
-This is the Hero Squad web application that allows users to create superheros and squads and add the heroes to specific squads.
+This is the Hero Squad web application that allowgit s users to create superheros and squads and add the heroes to specific squads.
 
  #Author
 Michael Oduor
 
 ## Technologies Used
-- Java JDK 8
-- Gradle
-- JUnit4
-- Spark
-- Maven
-- PostgreSql
+* [Oracle Java 8](https://www.oracle.com/java/)
+* [Gradle 6.5](https://gradle.org/)
+* [Spark 2.6.0](http://sparkjava.com/)
+* [Postgres 42.2.5](https://www.postgresql.org/)
+* [Handlebars 2.5.5](https://handlebarsjs.com/)
+* [Apache Maven 2.3.2](https://maven.apache.org/)
+* [Heroku Plugin 3.0.2](https://elements.heroku.com/addons)
+* [JUnit4](https://junit.org/junit5/)
 
 ## Setup Instructions
 - Install PostgreSql on your computer for the backend 
